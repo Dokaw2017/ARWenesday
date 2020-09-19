@@ -65,10 +65,10 @@ class MainActivity : AppCompatActivity() {
                         anchorNode.setParent(fragment.arSceneView.scene)
                         val imgNode = TransformableNode(fragment.transformationSystem)
                         imgNode.setParent(anchorNode)
-                        if (it.name == "sofa") {
+                        if (it.name == "coffee") {
                             imgNode.renderable = testRenderable
                         }
-                        if (it.name == "corals") {
+                        if (it.name == "winter") {
                             imgNode.renderable = testRenderable2
                         }
                     }
